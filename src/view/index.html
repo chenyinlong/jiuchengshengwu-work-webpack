@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>久成生物-主页</title>
+
+  <!--[if lte IE10]><script>window.location.href='https://support.dmeng.net/upgrade-your-browser.html';</script><![endif]-->
+  <!--
+        描述：head中无需再引入css以及facicon，webpack将根据入口JS文件的要求自动实现按需加载或者生成style标签
+    -->
+</head>
+
+<body>
+  <header>
+    <div class="w">
+      <h1 class="logo ">
+        <a href="">
+                    <img src="../img/asset/logo1.png">
+				</a>
+        <span class="company-name">北京久成生物科技有限公司</span>
+      </h1>
+
+      <nav class="head-nav">
+        <ul class="head-nav-ul">
+          <li class="checked"><a href="">首页</a></li>
+          <li><a href="">关于我们</a></li>
+          <li><a href="">产品展示</a></li>
+          <li><a href="">新闻动态</a></li>
+          <li><a href="">联系我们</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="main">
+    <div class="banner">
+      <div class="am-slider am-slider-default" data-am-flexslider id="demo-slider-0">
+        <ul class="am-slides">
+          <li><img src="../../static/banner1.png" /></li>
+          <li><img src="../../static/banner1.png" /></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="w">
+      <div class="about">
+        <h2 class="about-tit">
+          公司概况
+        </h2>
+        <div class="about-info">
+          <h3><span>关于久成</span></h3>
+          <p class="about-info-txt">
+            网博实景(北京)网络科技有限公司，自09年从事互联网技术及虚拟多维技术服务至今，业务不断壮大，营业额迅速突破千万元人民币，基于优良的业绩，在经过两年的精心策划与建设，于2015年6月在北京正式成立，是中国首家基于VR（虚拟现实）、AR（增强现实）及互联网技术的全产业商务应用服务商;公司自运营的开放式展销媒介平台及VR内容展示及制作平台，也为我们的客户提供了在线信息交流、技术分享、产品推介的快速通道。
+            网博实景的项目核心运营团队有80多名优秀员工，其中90%以上是大学本科学历，30%以上是硕士学历;20%具有海外留学背景;公司员工平均年龄28岁;是一支有知识、有激情、有梦想的团队，我们坚信科技改变生活，我们引领科技。
+          </p>
+          <button href="" class="am-btn am-btn-default about-more">查看详情</button>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="products">
+      <div class="w ">
+        <h2 class="products-tit">
+          产品展示
+        </h2>
+      </div>
+      <div class="products-bg"></div>
+      <div class="w">
+        <div class="products-goods">
+        <ul class="am-avg-sm-4 am-thumbnails">
+          <li class="products-good">
+            <img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-1.jpg" />
+            <div class="good-img-info">
+              <p class="good-img-info-tit">大地阳春 - 黑枸杞蜂花粉片</p>
+              <div class="good-line"></div>
+            </div>
+            <div class="img-hover">
+              <div class="img-hover-inner"></div>
+            </div>
+          </li>
+          <li class="products-good"><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-3.jpg" /></li>
+          <li class="products-good"><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-2.jpg" /></li>
+          <li class="products-good"><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-4.jpg" /></li>
+        </ul>
+      </div>
+      </div>
+
+    </div>
+
+  </section>
+  <footer>
+
+  </footer>
+  <!--
+        描述：body中同样无需单独引入JS文件，webpack会根据入口JS文件自动实现按需加载或者生成script标签，还可以生成对应的hash值
+    -->
+</body>
+
+</html>
