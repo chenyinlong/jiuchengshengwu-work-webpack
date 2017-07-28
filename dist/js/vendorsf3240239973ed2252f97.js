@@ -78,7 +78,7 @@
 /******/ 			script.charset = 'utf-8';
 /******/ 			script.async = true;
 
-/******/ 			script.src = __webpack_require__.p + "js/" + chunkId + ".chunk" + "e8e6ced64692664b87ef" + ".js";
+/******/ 			script.src = __webpack_require__.p + "js/" + chunkId + ".chunk" + "f3240239973ed2252f97" + ".js";
 /******/ 			head.appendChild(script);
 /******/ 		}
 /******/ 	};
@@ -90,7 +90,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "./";
+/******/ 	__webpack_require__.p = "/";
 /******/ })
 /************************************************************************/
 /******/ ([]);
