@@ -1,0 +1,103 @@
+
+footer {
+    background: url('../img/asset/footer-bg.png') no-repeat top center;
+}
+.footer-tit-bg {
+    width: 100%;
+    height: 94px; 
+    background-color: rgba(51, 51, 51, .3)
+}
+.footer-tit-bg .footer-tit {
+    font-size: 0;
+    width: 212px;
+    height: 94px;
+    background: url('../img/asset/contact-tit.png') no-repeat center center;
+}
+.footer-main {
+    margin: 90px 0 52px; 
+}
+.footer-log {
+    float: left;
+    width: 239px;
+    height: 120px;
+    background: url('../img/asset/footer-logo.png') no-repeat center center; 
+    margin: 36px 92px 50px 0;
+}
+.footer-info {
+    float: left;
+    list-style: none;
+    color: #b3b4b5;
+    vertical-align: middle
+}
+.footer-info i {
+    margin-right: 30px;
+}
+.footer-form {
+    float: right;
+    width: 424px;
+    height: 226px;
+    padding-top: 18px;
+}
+.footer-form label.am-form-label {
+    padding: 0;
+    display: block;
+    height: 37px;
+    width: 37px;
+    float: left;
+    text-align: center;
+    line-height: 37px;
+    margin-right:10px;
+    color: #b3b4b5;
+    font-weight: normal;
+}
+.footer-input-name {
+    margin-right: 30px;
+}
+.footer-form-one {
+    margin-bottom: 18px;
+}
+.footer-form-one input ,.footer-form-one div{
+    width: 136px;
+    float: left;
+}
+
+.footer-input-email,.footer-input-email input,.footer-input-content,.footer-input-content input {
+    width: 349px;
+}
+
+.footer-input-email,.footer-input-content {
+    float: left;
+}
+.footer-form-two {
+    margin-bottom: 18px;
+}
+.footer-form .am-form-group input {
+    background-color: rgba(0, 0, 0, .3);
+    border-color: #000
+}
+.footer-form .am-form-group input:focus {
+    background-color: rgba(0, 0, 0, .3);
+    border-color: #5bb730
+}
+.footer-submit {
+    border-color: #000;
+    color: #b3b4b5;
+     background-color: rgba(49, 50, 49, .3); 
+    /* background-color:linear-gradient(top,rgba(255,255,255,.3),rgba(255,255,255,0.5)); */
+}
+.footer-submit:hover {
+    color: #b3b4b5;
+    background-color: rgba(49, 50, 49, .5);
+    border-color: #5bb730
+}
+.bottom {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    background-color: #323232;
+    color: #999;
+}
+.bottom i {
+    margin: 0 20px;
+}

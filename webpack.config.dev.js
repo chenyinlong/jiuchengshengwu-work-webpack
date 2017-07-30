@@ -15,7 +15,9 @@ var HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   // 配置入口文件，有几个写几个
   entry: {
-    index: './src/js/index.js'
+    index: './src/js/index.js',
+    about: './src/js/about.js',
+    product: './src/js/product.js'
   },
   output: {
     path: path.join(__dirname, 'dist'), // 输出目录的配置，模板、样式、脚本、图片等资源的路径配置都相对于它
@@ -53,11 +55,12 @@ module.exports = {
   },
   plugins: [
     new webpack.ProvidePlugin({ // 加载jq
-      $: 'jquery'
+      $: 'jquery',
+      jQuery: "jquery"
     }),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendors', // 将公共模块提取，生成名为`vendors`的chunk
-      chunks: ['index', 'list', 'about'], // 提取哪些模块共有的部分
+      chunks: ['index', 'list', 'about','product'], // 提取哪些模块共有的部分
       minChunks: 3 // 提取至少3个模块共有的部分
     }),
     new ExtractTextPlugin('css/[name].css'), // 单独使用link标签加载css并设置路径，相对于output配置中的publickPath
@@ -70,6 +73,30 @@ module.exports = {
       inject: 'body', // js插入的位置，true/'head'/'body'/false
 
       chunks: ['vendors', 'index'], // 需要引入的chunk，不配置就会引入所有页面的资源
+      minify: { // 压缩HTML文件
+        removeComments: true, // 移除HTML中的注释
+        collapseWhitespace: false // 删除空白符与换行符
+      }
+    }),
+    new HtmlWebpackPlugin({ // 根据模板插入css/js等生成最终HTML
+      favicon: './src/img/favicon.ico', // favicon路径，通过webpack引入同时可以生成hash值
+      filename: './about.html', // 生成的html存放路径，相对于path
+      template: './src/view/about.html', // html模板路径
+      inject: 'body', // js插入的位置，true/'head'/'body'/false
+
+      chunks: ['vendors', 'about'], // 需要引入的chunk，不配置就会引入所有页面的资源
+      minify: { // 压缩HTML文件
+        removeComments: true, // 移除HTML中的注释
+        collapseWhitespace: false // 删除空白符与换行符
+      }
+    }), 
+    new HtmlWebpackPlugin({ // 根据模板插入css/js等生成最终HTML
+      favicon: './src/img/favicon.ico', // favicon路径，通过webpack引入同时可以生成hash值
+      filename: './product.html', // 生成的html存放路径，相对于path
+      template: './src/view/product.html', // html模板路径
+      inject: 'body', // js插入的位置，true/'head'/'body'/false
+
+      chunks: ['vendors', 'product'], // 需要引入的chunk，不配置就会引入所有页面的资源
       minify: { // 压缩HTML文件
         removeComments: true, // 移除HTML中的注释
         collapseWhitespace: false // 删除空白符与换行符

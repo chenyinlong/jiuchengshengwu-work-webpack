@@ -1,0 +1,146 @@
+.start-banner {
+    background-image: url("../img/asset/product-banner.png")
+}
+.bread {
+    background-image:  url("../img/asset/product-bread-bg.png")
+}
+.products
+{
+    position: relative;
+
+    margin-bottom: 112px;
+}
+.products .w
+{
+    position: relative;
+}
+.products-goods
+{
+}
+.products-goods
+{
+    padding-top: 40px;
+    position: relative;
+}
+.products-good-img
+{
+    overflow: hidden;
+
+    width: 285px;
+    height: 240px;
+}
+.products-good
+{
+    position: relative;
+    cursor: pointer;
+}
+.products-good img
+{
+    width: 285px;
+    height: 240px;
+    margin-bottom: auto;
+    padding: 0;  /* 可以去掉边框 */
+
+    transition: all .35s;
+}
+.good-img-info
+{
+    width: 285px;
+    height: 50px;
+    /* padding: 30px 0 0 24px; */
+    line-height: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.good-img-info-tit
+{
+    font-size: 14px;
+
+    margin: 0 0 .6rem 0;
+}
+
+
+.img-hover
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 285px;
+    height: 240px;
+    margin: 0 6px 0;
+
+    background-color: rgba(51, 51, 51, .3);
+}
+.img-hover-inner
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 254px;
+    height: 210px;
+    margin: auto;
+
+    border: 1px solid #5bb730;
+}
+.img-hover-inner2
+{
+    font: normal normal normal 1.6rem/1 FontAwesome,sans-serif;
+    font-size: 16px;
+    line-height: 43px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 43px;
+    height: 43px;
+    margin: auto;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #5bb730;
+}
+.img-hover-inner2::before
+{
+     content: '\F002';
+    /* /* content: '+';  */
+}
+
+.products-good:hover img
+{
+    transform: scale(1.1);
+}
+.products-good:hover .img-hover
+{
+    display: block;
+}
+.products-good:hover .good-img-info
+{
+    background-color: #5bb730;
+}
+.products-good:hover .good-img-info-tit
+{
+    color: #fff;
+}
+.products-good:hover .good-line
+{
+    border-color: #fff;
+}
+/* .products-modal-close {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background: #fff;
+    border-radius: 12px;
+    opacity: 1;
+    text-align: center;
+} */

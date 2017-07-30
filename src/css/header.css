@@ -1,0 +1,60 @@
+header
+{
+    height: 100px;
+
+    vertical-align: middle;
+}
+
+.logo
+{
+    line-height: 100px;
+
+    float: left;
+
+    margin: auto;
+}
+
+.company-name
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.head-nav
+{
+    float: right;
+}
+
+.head-nav-ul
+{
+    list-style: none;
+}
+
+.head-nav-ul li
+{
+    line-height: 100px;
+
+    float: left;
+
+    margin: 0 30px;
+}
+
+.head-nav-ul a
+{
+    padding: 10px 0;
+
+    color: #333;
+    border-bottom: 3px solid #fff;
+}
+
+.head-nav-ul a:hover
+{
+    color: #76b260;
+    border-color: #76b260;
+}
+
+.head-nav-ul li.checked a
+{
+    color: #76b260;
+    border-color: #76b260;
+}

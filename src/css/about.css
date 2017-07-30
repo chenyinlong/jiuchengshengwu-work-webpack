@@ -1,0 +1,68 @@
+.start-banner {
+    background-image: url("../img/asset/about-banner.png")
+}
+.bread {
+    background-image:  url("../img/asset/about-bread-bg.png")
+}
+.about-introduction {
+    margin-top: 70px;
+}
+.about-introduction-tit{
+    font-size: 0;
+    height: 50px;
+    background: url("../img/asset/about-introduction-tit.png") no-repeat center top;
+}
+.about-introduction-l {
+    width: 600px;
+    height: 358px;
+    overflow: hidden;
+    float: left;
+}
+.about-introduction-l h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-introduction-l p {
+    text-indent: 2em;
+}
+.about-introduction-r {
+    float: right;
+}
+.about-introduction-r-l {
+    float: left;
+}
+.about-introduction-r-l img {
+}
+.about-introduction-r-l .img1 {
+    width: 220px;
+    height: 144px;
+    margin:0 10px 10px 0;
+    overflow: hidden
+}
+.about-introduction-r-l .img2 {
+    width: 220px;
+    height: 204px;
+    overflow: hidden
+}
+.about-introduction-r-r {
+    width: 306px;
+    height: 358px;
+    float: left;
+    overflow: hidden
+}
+.about-culture {
+    margin-top: 100px;
+    width: 100%;
+    height: 420px;
+    background: url("../img/asset/about-culture.png") no-repeat center -14px;
+}
+
+.about-rongyu {
+    margin: 70px 0 200px;
+}
+.about-rongyu-tit{
+    font-size: 0;
+    height: 50px;   
+    background: url("../img/asset/about-rongyu.png") no-repeat center top;
+    margin-bottom: 60px;
+}
