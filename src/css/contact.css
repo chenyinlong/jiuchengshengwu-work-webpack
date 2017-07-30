@@ -1,0 +1,36 @@
+.start-banner {
+    background-image: url("../img/asset/contact-banner.png")
+}
+.bread {
+    background-image:  url("../img/asset/contact-bread-bg.png")
+}
+.contact-introduction-tit{
+    font-size: 0;
+    height: 50px;
+    background: url("../img/asset/contact-page-tit.png") no-repeat center top;
+    margin-bottom: 40px;
+}
+.contact-footer {
+    background: #fff;
+    
+}
+.contact-footer .footer-tit-bg{
+    background: #fff;
+}
+.contact-footer .footer-form .am-form-group input {
+    background-color: #fff;
+    /* border-color: #000; */
+}
+.contact-footer .footer-info {
+color: #333;
+}
+.contact-footer .footer-form label.am-form-label{
+        color: #333;
+}
+ .contact-footer   .footer-log {
+      background-image: url("../img/asset/contact-footer-logo.png") 
+ }
+  .contact-footer   .footer-submit {
+      background: #5bb730; 
+      color: #fff;
+  }
