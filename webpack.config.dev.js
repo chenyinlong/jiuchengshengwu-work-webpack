@@ -11,7 +11,7 @@ html-webpack-plugin插件，重中之重，webpack中生成HTML的插件，
 具体可以去这里查看https://www.npmjs.com/package/html-webpack-plugin
  */
 var HtmlWebpackPlugin = require('html-webpack-plugin')
-
+var CopyWebpackPlugin = require('copy-webpack-plugin')
 module.exports = {
   // 配置入口文件，有几个写几个
   entry: {
@@ -142,6 +142,13 @@ module.exports = {
         collapseWhitespace: false // 删除空白符与换行符news_details
       }
     }),
+        new CopyWebpackPlugin([ // copy custom static assets
+      {
+        from: path.resolve(__dirname, './static'),
+        to: 'static',
+        ignore: ['.*']
+      }
+    ]),
     new webpack.HotModuleReplacementPlugin() // 热加载
   ],
   // 使用webpack-dev-server，提高开发效率

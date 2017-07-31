@@ -4,7 +4,7 @@
   "description": "pure front demo",
   "scripts": {
     "dev": "webpack-dev-server --inline --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.dev.js"
   },
   "author": "vhtml",
   "license": "ISC",
