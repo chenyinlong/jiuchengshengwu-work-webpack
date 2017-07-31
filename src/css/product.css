@@ -1,14 +1,14 @@
 .start-banner {
     background-image: url("../img/asset/product-banner.png")
 }
-.bread {
+.bread .w{
     background-image:  url("../img/asset/product-bread-bg.png")
 }
 .products
 {
     position: relative;
 
-    margin-bottom: 112px;
+    margin:70px 0 112px;
 }
 .products .w
 {

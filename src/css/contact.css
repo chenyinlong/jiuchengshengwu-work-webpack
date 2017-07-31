@@ -1,14 +1,14 @@
 .start-banner {
     background-image: url("../img/asset/contact-banner.png")
 }
-.bread {
+.bread .w{
     background-image:  url("../img/asset/contact-bread-bg.png")
 }
 .contact-introduction-tit{
     font-size: 0;
     height: 50px;
     background: url("../img/asset/contact-page-tit.png") no-repeat center top;
-    margin-bottom: 40px;
+    margin:70px 0 40px;
 }
 .contact-footer {
     background: #fff;
@@ -31,6 +31,9 @@ color: #333;
       background-image: url("../img/asset/contact-footer-logo.png") 
  }
   .contact-footer   .footer-submit {
-      background: #5bb730; 
-      color: #fff;
+      background: #fff; 
+      color: #333;
   }
+.contact-map {
+    height: 530px;
+}

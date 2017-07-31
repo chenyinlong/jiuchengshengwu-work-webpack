@@ -1,0 +1,120 @@
+.start-banner {
+    background: url("../img/asset/news-banner.png") no-repeat center -74px ;
+}
+.bread {
+    background-color: #bcc1c3;
+}
+.bread .w{
+    background-color:#bcc1c3;        
+    background-image:  url("../img/asset/news-bread-bg.png")
+}
+.news-main {
+    background: url("../img/asset/news-bg_03.png")
+}
+.news {
+    margin:70px 0 0; 
+    
+}
+.news-tablenav {
+    position: relative;
+} 
+.news-tablenav .am-tabs-nav {
+    width: 364px;
+    margin: 0 auto 52px;
+    border-width: 0;
+    
+}
+#news-tablenav-1 {
+    float: left
+}
+#news-tablenav-1 a,#news-tablenav-2 a {
+    border-color: #ccc;
+}
+#news-tablenav-2 {
+    float: right;
+}
+ .news-tablenav .am-tabs-nav li {
+    width: 158px;
+} 
+.news-tablenav .am-tabs-nav li.am-active a{
+    background-color: #5bb730;
+    color: #fff;
+}
+.news-tablenav .am-tabs-nav li a {
+    color: #333;
+    text-align: center;
+}
+
+.news .am-tabs-bd {
+    border-color: transparent;
+}
+.news .am-tabs-bd .am-list .am-list-item-desced {
+    border: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.news .am-list li .am-list-thumb {
+    padding-right: 50px;
+}
+.news .am-list li .am-list-item-hd a{
+    font-size: 16px;
+    color: #333;
+}
+.news .am-list li:hover .am-list-item-hd a{
+    color: #5bb730;
+}
+.news .am-list-news-bd .am-list li .am-list-item-text {
+    width: 670px;
+    /* max-height: 2em; */
+    overflow: hidden;
+    margin-top: 18px;
+}
+.news-li-times {
+    position: absolute;
+    right: 40px;
+
+}
+.news-li-times-month {
+    font-size: 20px;
+}
+.news-li-times-go {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 20ox;
+    left: 0;
+    text-align: center;
+    line-height: 28px;
+    transition: all .35s;
+}
+
+.news-li-times-go::before{
+    font: normal normal normal 1.6rem/1 FontAwesome,sans-serif;
+    content:"\f105";
+}
+.news .am-list li:hover .news-li-times-go{
+    left: 47px;
+    background-color: #5bb730;
+    color: #fff;
+}
+.news .am-list {
+    min-height: 698px;
+    margin-bottom: 100px;
+}
+.news .am-tabs-bd .am-list li {
+
+}
+.news .am-pagination li a{
+    border-color: #5bb730;
+    color: #333;
+}
+.news .am-pagination li a.am-active{
+    background-color: #5bb730;
+}
+.news .am-pagination {
+    text-align:center;
+}
+.news .am-pagination li{
+    display: inline-block;
+}

@@ -4,10 +4,13 @@
     background: url("../img/asset/about-banner.png") no-repeat center top;
 }
 .bread {
+    background-color: #f3f3f3;
+}
+.bread .w{
     height: 120px;
     line-height: 120px;
-    background-color: #f3f3f3;
-    background: url("../img/asset/about-bread-bg.png") no-repeat center right;
+    /* background-color: ; */
+    background:#f3f3f3 url("../img/asset/about-bread-bg.png") no-repeat center right;
 }
 .bread .am-breadcrumb {
     padding: 0;
